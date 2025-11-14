@@ -205,7 +205,7 @@ ul {
 
 /* ajuste o caminho para o seu SVG */
 .pattern-bar--orange {
-    background-image: url("../img/pattern-orange.png");
+    background-image: url("../img/pattern-white.png");
     background-repeat: repeat-x;
     background-size: auto 100%;
 }
