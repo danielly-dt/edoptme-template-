@@ -70,8 +70,9 @@ ul {
     padding: 0.75rem 0;
 }
 
-.logo img {
+.site-header .logo img {
     height: 32px;
+    filter: brightness(0) invert(1);
 }
 
 /* NAV */
@@ -204,8 +205,11 @@ ul {
 
 /* ajuste o caminho para o seu SVG */
 .pattern-bar--orange {
-    background-image: url("../img/pattern-orange.svg");
+    background-image: url("../img/pattern-orange.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
 }
+
 
 .hero {
     padding: 3rem 0 3.5rem;
